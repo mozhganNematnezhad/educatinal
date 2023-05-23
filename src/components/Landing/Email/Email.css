@@ -1,0 +1,7 @@
+.Em-overlay{
+    background-image:url("../../../Assets/images/Email/newsletter_bg.png");
+    background-position: center center;
+    background-size: cover;
+    transition: background .3s,border-radius .3s,opacity .3s;
+    z-index: 9999;
+}

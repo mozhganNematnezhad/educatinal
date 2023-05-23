@@ -1,0 +1,18 @@
+.teacher {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.teacher:nth-child(even) {
+  display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .teacher:nth-child(odd) .circle {
+    display: flex !important;
+    justify-content: flex-end!important;
+  }
+  
+  
+  /* loading css */

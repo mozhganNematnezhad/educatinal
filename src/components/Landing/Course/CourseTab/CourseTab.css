@@ -1,0 +1,60 @@
+
+.DC-title {
+  /* background-color: yellow; */
+  height: 3rem;
+  overflow: hidden;
+}
+
+
+.DC-desc {
+  /* background-color: pink; */
+  height: 7rem !important;
+  overflow: hidden;
+} 
+
+/* *********************** */
+/* *********************** */
+/* *********************** */
+
+
+
+
+
+/* .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }  */
+
+/* .DC-desc {
+      overflow: hidden;
+       text-overflow: ellipsis;
+       display: -webkit-box;
+       -webkit-line-clamp: 3;
+       line-clamp: 3;
+       -webkit-box-orient: vertical;
+   }
+    */

@@ -1,0 +1,104 @@
+
+.animC {
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    opacity: 1;
+  }
+  
+  .anim1 {
+    animation-duration: 5s;
+    z-index: 2;
+    animation-name: anim1;
+  }
+  
+  @keyframes anim1 {
+    0% {
+      transform: translateX(-15%);
+    }
+  
+    50% {
+      transform: translateX(15%);
+    }
+  
+    100% {
+      transform: translateX(-15%);
+    }
+  }
+  
+  .anim2 {
+    animation-duration: 25s;
+    z-index: 9;
+    animation-name: anim2;
+  }
+  
+  @keyframes anim2 {
+    0% {
+      transform: translateX(-50%);
+    }
+  
+    50% {
+      transform: translateX(50%);
+    }
+  
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .anim3 {
+    animation-duration: 20s;
+    z-index: 7;
+    animation-name: anim2;
+  }
+  
+  .books {
+    z-index: 3;
+  }
+  
+  .jump {
+    animation-name: jump;
+    animation-duration: 8s;
+    z-index: 1;
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: translateY(-50px);
+    }
+  
+    50% {
+      transform: translateY(50px);
+    }
+  
+    100% {
+      transform: translateY(-50px);
+    }
+  }
+  
+  .front img {
+    z-index: 2;
+  }
+  
+  .jump1 {
+    animation-name: jump1;
+    animation-duration: 8s;
+    z-index: 1;
+  }
+  
+  @keyframes jump1 {
+    0% {
+      transform: translateY(50px);
+    }
+  
+    50% {
+      transform: translateY(-50px);
+    }
+  
+    100% {
+      transform: translateY(50px);
+    }
+  }
+  
+  
+  
+  

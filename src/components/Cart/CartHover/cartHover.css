@@ -1,0 +1,20 @@
+.TwIn-boxCartHover::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .TwIn-boxCartHover::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px #0eb582;  */
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .TwIn-boxCartHover::-webkit-scrollbar-thumb {
+    background: #0eb582; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .TwIn-boxCartHover::-webkit-scrollbar-thumb:hover {
+    background: #0eb582; 
+  }

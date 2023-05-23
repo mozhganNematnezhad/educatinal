@@ -1,0 +1,15 @@
+.Login{
+    /* background-image: linear-gradient(to left, #264067b3 , #14b8a6db ); */
+}
+
+
+.formLogin{
+backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  /* border: 2px solid rgba(255, 255, 255, 0.1); */
+
+
+  /* box-shadow: 0 0 1px 0 rgba(234,239,244,1); */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+    
+}

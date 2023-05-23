@@ -1,0 +1,7 @@
+.register {
+  background-image: url("../../../../Assets/images/Admin/Touritor/course_bg.png"),
+    linear-gradient(to left, #264067b3, #14b8a6db);
+  /* background: url("../../../../Assets/images/Admin/Touritor/course_bg.png"); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;}

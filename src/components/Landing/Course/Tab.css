@@ -1,0 +1,102 @@
+.Co_back {
+  background-image: url("../../../Assets/images/course/course_back.png");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark .Co_back{
+  background-image: none;
+  background-color: #0F1E2F;
+}
+
+
+.bloc-tabs {
+  background: white;
+  border-radius: 1.5rem;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.274); */
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  /* animation : fadeIn 2s ease-in-out alternate; */
+}
+
+/* .tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+} */
+
+.active-tabs {
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  /* transition: all 0.3s ease-in-out */
+
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  height: 5px;
+  background: #0eb582;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  /* animation : fadeIn 2s ease-in-out alternate; */
+
+
+}
+
+button {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  padding: 20px;
+  width: 90%;
+  margin:auto;
+  height: 100%;
+  /* display: none; */
+  transition: all 0.3s ease-in-out
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+
+.content p {
+  width: 100%;
+  height: 100%;
+}
+
+
+.active-content {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+
+

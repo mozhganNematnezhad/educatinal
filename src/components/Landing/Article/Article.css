@@ -1,0 +1,30 @@
+/* swiper */
+
+.swiper-pagination {
+  margin-bottom: -1rem !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 3rem !important;
+  border-radius: 0.5rem !important;
+  background-color: #0eb582 !important;
+}
+.dark .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 3rem !important;
+  border-radius: 0.5rem !important;
+  background-color: rgb(96,156,255) !important;
+}
+
+
+
+.textArticle {
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box; */
+/* number of lines to show */
+  /* -webkit-line-clamp: 5; 
+  line-clamp: 5;
+  -webkit-box-orient: vertical; */
+
+
+}

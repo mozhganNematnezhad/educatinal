@@ -1,0 +1,15 @@
+/* .siqnUp{
+    background-image: linear-gradient(to left, #264067b3 , #14b8a6db );
+} */
+
+
+
+.formSiqnup{
+    backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
+      /* border: 2px solid rgba(255, 255, 255, 0.1); */
+      /* box-shadow: 0 0 40px rgba(8, 7, 16, 0.6); */
+      /* background-color: rgba(255, 255, 255, 0.13); */
+        
+    }
+    

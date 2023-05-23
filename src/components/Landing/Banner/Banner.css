@@ -1,0 +1,55 @@
+@media (min-width: 640px) {
+  .Ba_back {
+    /* background: linear-gradient(#264067, #14b8a6); */
+    background-image: url("../../../Assets/images/banner/banner.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .dark .Ba_back{
+    background-image: none;
+  }
+}
+@media (max-width: 639px) {
+  .Ba_back {
+    background-color: #eef0f8;
+    height:40rem;
+  }
+}
+
+ 
+.heading1 {
+  animation-name: heading1;
+  animation-duration: 3s;
+}
+
+.heading2 {
+  animation-name: heading2;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes heading1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes heading2 {
+  0% {
+    opacity: 0;
+    transform: translateX(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+} 
