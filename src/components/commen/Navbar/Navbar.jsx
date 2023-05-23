@@ -59,9 +59,7 @@ const Navbar = () => {
     setIsCart(!iscart);
   };
   const location = useLocation();
-  // console.log("location",location);
-  // برای اینکه وقتی میری داخل صفحه تسویه
-  //  حساب اون باکس محصولات کارت از بین برود
+
   useEffect(() => {
     if (location.pathname === "/cart") {
       setIsCart(false);
@@ -369,77 +367,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// *************************
-// *************************
-// *************************
-// *************************
-// to={userData.fullName ? "/userdashboard" : "/login"}
-// من گفتم که تو بیا اون یوز اسمشو بگیر و بعد لاگ اوت کن
-// یعنی کاربر ببره بیرون
-
-// *************************
-// *************************
-// const {cart}  = ConsumeCartState();
-
-// توقبلی ما میگفتیم
-// cart.cart
-// ولی الان دیگه داخلش یه کارت هست  دیگه نبازی به کارت دوم نیست
-// چون قبلی یه ابجکت بود
-// در هر کامپوننتی که
-// cart.cart
-// داری باید
-// cart
-// بزاری
-
-// *************************
-// *************************
-
-// برای وقتی که میخوای بری ضفحه خرید ودکمه تسویه حساب و میزنی و باید
-// این باکسش با رفتن به صفجه کارت از بین بره
-// useEffect(() => {
-//   setIsCart(false)
-
-// },[window.location.pathname])
-
-// *************************
-// *************************
-// *************************
-// *************************
-// *************************
-
-//sticky
-// const [sticky, setSticky] = useState({ isSticky: false, offset: 0 });
-// const headerRef = useRef(null);
-// const handleScroll = (elTopOffset, elHeight) => {
-//   if (window.pageYOffset > elTopOffset + elHeight) {
-//     setSticky({ isSticky: true, offset: elHeight });
-//   } else {
-//     setSticky({ isSticky: false, offset: 0 });
-//   }
-// };
-// // add/remove scroll event listener
-// useEffect(() => {
-//   var header = headerRef.current.getBoundingClientRect();
-//   const handleScrollEvent = () => {
-//     handleScroll(header.top, header.height);
-//   };
-//   window.addEventListener("scroll", handleScrollEvent);
-//   return () => {
-//     window.removeEventListener("scroll", handleScrollEvent);
-//   };
-// }, []);
-
-// <nav
-//      className={`navbar  ${sticky.isSticky ? " sticky" : " "}
-//       w-full bg-Main-Blue z-[10]  lg:h-24 dark:bg-[#0A1929]
-//       dark:border-b dark:border-[rgba(248,250,252,.06)]`}
-//      ref={headerRef}
-//   ></nav>
-
-//end sticky
-// *************************
-// *************************
-// *************************
-// *************************
-// *************************

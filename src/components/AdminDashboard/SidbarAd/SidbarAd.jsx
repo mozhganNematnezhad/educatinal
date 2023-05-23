@@ -72,18 +72,3 @@ export default SidbarAd;
 
 
 
-
-
-// **********************
-// **********************
-// **********************
-// **********************
-
-//  {/* این ضربدر دیگه فقط بسته میکنه  */}
-// {/* دیگه وقتی بسته شد خود سایدبار دیگه نیست که ما بخوایم بیاریم */}
-// <button
-//   onClick={toggleSidbar}
-//   className=" ml-1  text-2xl  text-white/80 hover:text-white/100"
-// >
-//   <AiOutlineCloseCircle />
-// </button>

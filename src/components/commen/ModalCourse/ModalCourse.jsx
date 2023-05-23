@@ -237,17 +237,3 @@ const ModalCourse = ({ modal, setModal, lesson }) => {
 };
 
 export default ModalCourse;
-
-// ****************
-// ****************
-// ****************
-// ****************
-// ****************
-
-// style={{
-//   transform: modal ? "translateY(0)" : "translateY(-200vh)",
-// }}
-
-// className={`transition-all duration-1000 overflow-hidden ${
-//   comment ? "h-[400px] " : "h-0"
-// } `}

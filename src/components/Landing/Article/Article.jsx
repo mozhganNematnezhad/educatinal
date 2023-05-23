@@ -118,22 +118,3 @@ export default Article;
 
 
 
-
-  // useEffect(() => {
-  //   const fetchallData = async () => {
-  //     try {
-  //       const response = await getAllArticle();
-  //       // console.log(response.data.result);
-  //       setArticle(response.data.result);
-  //     } catch (error) {
-  //       console.log(error.message);
-  //     }
-  //   };
-  //   fetchallData();
-  // }, []);
-
-
-  
-  // import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
-// import 'swiper/css/navigation';
-// import 'swiper/css/scrollbar';

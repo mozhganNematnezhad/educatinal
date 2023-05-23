@@ -81,19 +81,3 @@ const StudentsAd = () => {
 
 export default StudentsAd;
 
-// const [students, setStudents] = useState([
-//   {
-//     id: 1,
-//     role: "student",
-//     user: "مریم",
-//     email: "maryam@gmail.com",
-//     phone: "0911234567",
-//   },
-//   {
-//     id: 2,
-//     role: "student",
-//     user: "حسن",
-//     email: "hasan@gmail.com",
-//     phone: "0911234567",
-//   },
-// ]);

@@ -43,31 +43,4 @@ export default DetailsCo;
 
 
 
-
-
-
-
-// *********************************
-// *********************************
-// *********************************
-
-// {/* <SidbarDe detailsCourse={detailsCourse} /> */}
-
-// *********************************
-// *********************************
-
-// const { courseId } = useParams();
-//   console.log(params)
-
-//   useEffect(() => {
-//     const fetchOneCourse = async () => {
-//       try {
-//         const response = await getOneCourse(courseId);
-//         console.log("DetailsCo", response.data.result);
-//         setDetailsCourse(response.data.result);
-//       } catch (error) {
-//         console.log(error.message);
-//       }
-//     };
-//     fetchOneCourse();
-//   }, [courseId]);
+ 

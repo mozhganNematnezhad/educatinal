@@ -92,22 +92,3 @@ export default LessonsAd;
 
 
 
-
-
-
-
-
-
-
-// const [lessons, setLessons] = useState([
-//   {
-//     id: 1,
-//     img: react,
-//     titleLesson: "آموزش پروژه محور جاوا اسکریپت",
-//   },
-//   {
-//     id: 2,
-//     img: react,
-//     titleLesson: "آموزش پروژه   ریکت",
-//   },
-// ]);

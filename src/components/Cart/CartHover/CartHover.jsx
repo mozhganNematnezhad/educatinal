@@ -100,5 +100,3 @@ const CartHover = () => {
 
 export default CartHover;
 
-// تو حالت عادی هیدن باشه  وقتی که هاور شد
-// گرید کن

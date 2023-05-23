@@ -42,5 +42,3 @@ const SelectAdmin = () => {
 
 export default SelectAdmin;
 
-//  value="admin"
-// حتماا  ببین که هیچ فاصله ای نداشته باشه

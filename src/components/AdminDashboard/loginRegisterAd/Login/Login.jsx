@@ -136,33 +136,3 @@ const Login = () => {
 };
 
 export default Login;
-
-// *****************************
-// *****************************
-// *****************************
-
-//     console.log("values",values)   //{email: 'neda@gmail.com', password: '12345678Mn@'}
-// من میخوام این ولیوز رو بفرستم سمت بک اند ... }
-// چون این ادمین  باید اول چک کنه ببینه که هست یا نه دیه
-
-// *****************************
-// *****************************
-// localStorage.setItem("admin-token", response.data.result.jwtToken)
-// این چون رشته بود دیگه نباز به تبدیل نداشت
-
-// *****************************
-// *****************************
-// *****************************
-
-// ولی برای
-// employeeModel
-// ما چون خودش یک ابجکت هست پس باید قبل
-// setItem
-// باید اول تبدیل به ابجکت شود  کنیم
-
-// const convertTostring=JSON.stringify(response.data.result.employeeModel);
-//      console.log("convertTostring",convertTostring)
-
-// ما رسپانسی که میگیریم به صورت ابجکت هست ولی داخل لوکال استورچ که میخوایم دخیره کنیم باید تبدیل کنیم به استرینگ
-// که برای تبدیل باید
-// JSON.stringify(response.data.result.employeeModel);

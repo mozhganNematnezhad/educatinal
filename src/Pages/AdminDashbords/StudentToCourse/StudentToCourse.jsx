@@ -235,24 +235,3 @@ export default StudentToCourse;
 
 
 
-
-
-
-
-// course ====دوره -ترم
-// lesson=== درس
-
-// {/* <option
-// value=" "
-// className="option text-center text-gray-500 cursor-pointer  dark:text-white"
-// >
-// {" "}
-// جاوا
-// </option>
-// <option
-// value=" "
-// className="option text-center text-gray-500 cursor-pointer  dark:text-white"
-// >
-// {" "}
-// ریکت
-// </option> */}
